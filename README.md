@@ -42,11 +42,11 @@ Implemented network has the following traits:
    ```python
     network.feedforward(sample)
     ```
-6. Network uses SCD after each sample
+6. Network uses SGD after each sample
 7. Network uses backpropagation to tweek weights and biases
 8. Network uses sigmoid as activation function
 9. There are 2 utility methods: 
     * `draw_loss_plot` - which uses matplotlib to draw plot of how loss changed in time
     * `print_network` - which prints all neurons' weights layer by layer
     
-10. When in doubt check bottom of `nn.py` for some examples.
+10. When in doubt check bottom of `nn.py` file for some examples.
